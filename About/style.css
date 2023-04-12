@@ -1,0 +1,16 @@
+body{
+    margin: 0 7%;
+}
+
+.header{
+    color: rgb(35 , 35, 116);
+    margin-top: 5%;
+    font-size: 40px;
+}
+
+.para{
+    margin-right: 8%;
+    font-size: 30px;
+    padding-left: 40px;
+    padding-top: 20px;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Let's Start</title>
+</head>
+
+<body>
+    <div class="nav">
+        <a href="../index.html" class="nav1">
+            <h1>Home | Start</h1>
+        </a>
+    </div>
+    <div class="title">
+        <h1>Let's <span class="top-picks">Start</span>.</h1>
+    </div>
+    <div class="timeline">
+        <div class="container left-container">
+            <div class="text-box">
+                <h2>Whats Budget...</h2>
+                <select id="option" class="optionss">
+                    <option value="">Select Budget</option>
+                    <option value="Budget">Budget (10k-30k)</option>
+                    <option value=" Premium">Premium (35k+)</option>
+                </select>
+                <span class="left-container-arrow"></span>
+            </div>
+        </div>
+        <div class="container right-container">
+            <div class="text-box">
+                <h2>What's Priority...</h2>
+                <select id="option1" class="optionss">
+                    <option value="">Select Usage</option>
+                    <option value="Budget">Budget</option>
+                    <option value="Photography">Photography</option>
+                    <option value="Gaming">Gaming</option>
+                </select>
+                <span class="right-container-arrow"></span>
+            </div>
+        </div>
+        <div class="container left-container">
+            <div class="text-box">
+                <h2>Connectivity...</h2>
+                <select id="option2" class="optionss">
+                    <option value="">5G/4G</option>
+                    <option value="5G">5G</option>
+                    <option value="4G">4G</option>
+                </select>
+                <span class="left-container-arrow"></span>
+            </div>
+        </div>
+        <div class="container right-container">
+            <div class="text-box">
+                <h2>Brand Prefernce...</h2>
+                <select id="option3" class="optionss">
+                    <option value="">Select Brand</option>
+                    <option value="AnyBrand">Any Brands</option>
+                    <option value="NonChinese">Non-chineseBrands</option>
+                </select>
+                <span class="right-container-arrow"></span>
+            </div>
+        </div>
+        <div class="finish">
+            <button onclick="generateLink()" class="bottom-button">Generate Link</button>
+            <p id="result"></p>
+        </div>
+    </div>
+    <div class="text-btm">
+        <p>If you want to check out more options <a href="../Blogs/index.html"> click here.</a></p>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

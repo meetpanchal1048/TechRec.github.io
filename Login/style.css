@@ -1,0 +1,64 @@
+body {
+    background-image: url(./blob-scatter-haikei.svg);
+    background-size: cover;
+}
+
+
+.nav1{
+    text-decoration: none;
+}
+
+.login-form {
+    background: rgba(239, 238, 238, 0.678);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(6.5px);
+    -webkit-backdrop-filter: blur(6.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    margin: 7% 30% 0 30%;
+    padding-bottom: 20%;
+}
+
+h1{
+    font-size: 50px;
+    margin-top: 40%;
+}
+h2{
+    margin-left: 5%;
+    font-size: 30px;
+}
+#username{
+    background: #b2b2b4;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 10px 20px 10px 20px;
+}
+#password{
+    background: #b2b2b4;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 10px 20px 10px 20px;
+}
+#submit{
+    background-color: #232374;
+    color: white;
+    font-size: 17px;
+    margin-top: 7%;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+}
+
+@media screen and ( max-width: 600px){
+    .login-form{
+        margin: 0;
+        margin: 40% 10% 0 10%;
+    }
+    
+}

@@ -1,0 +1,76 @@
+body{
+    background-color: white;
+    scroll-behavior: smooth;
+}
+/* --------------------------Top------------------------------ */
+.home{opacity: 80%;
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 3%;
+    color: black;
+    transition: 0.5s;
+}
+
+.home:hover {
+    font-size: 32px;
+    opacity: 100%;
+}
+
+.heading{
+    margin: 16% 0;
+    text-align: center;
+    align-items: center;
+    font-size: 60px;
+}
+
+.top-picks{
+    padding: 10px 10px;
+    color: white;
+    background-color: rgb(35, 35, 116);
+}
+
+.h11 {
+    opacity: 80%;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 30%;
+    margin-bottom: 10%;
+    font-size: 80px;
+}
+
+.h1{
+    opacity: 80%;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 10%;
+    font-size: 70px;
+}
+
+.h2{
+    margin-top: 10%;
+    margin-bottom: 20%;
+    opacity: 80%;
+    text-align: center;
+    font-size: 50px;
+}
+a{
+    line-height: 2.5;
+}
+/* --------------------------Images---------------------------- */
+.image{
+
+    display: flex;
+    align-items: center;
+}
+
+.img{
+    margin: 0 10%;
+    margin-top: -10%;
+    margin-bottom: 10%;
+    width: 35%; 
+    border-radius: 10px;
+}
+
+.img-desc{
+    margin-top: -25%;
+}
