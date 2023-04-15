@@ -6,26 +6,21 @@ body {
 
 /* Home */
 
-.nav{
+.nav {
     font-size: 15px;
     text-decoration: none;
-    color: black;
+    color: rgb(0, 0, 0);
     padding: 1% 0;
     padding-left: 7%;
-    background-color: white;
-    opacity: 80%;
     text-decoration: none;
     font-size: 30px;
     margin-left: 3%;
-    color: black;
-    transition: 0.5s;
+
 }
 
-.nav:hover {
-    font-size: 32px;
-    opacity: 100%;
-}
-.nav1{
+
+
+.nav1 {
     opacity: 70%;
     font-size: 15px;
     text-decoration: none;
@@ -34,11 +29,13 @@ body {
     padding-left: 7%;
     background-color: white;
 }
-.top-picks{
+
+.top-picks {
     padding: 5px 10px;
     color: white;
     background-color: rgb(35, 35, 116);
 }
+
 /*----------------------------- Section Content----------------------- */
 
 
@@ -53,19 +50,23 @@ body {
     width: 500px;
     height: 50px;
 }
-#result{
+
+#result {
     font-size: 15px;
 }
-.result1{
+
+.result1 {
     text-decoration: none;
     color: rgb(168, 168, 168);
     transition: 1s;
 }
-.result1:hover{
+
+.result1:hover {
     font-size: 13px;
     color: white;
     transition: 1s;
 }
+
 /* -------------------------------Option--------------------------------- */
 
 .optionss {
@@ -74,46 +75,51 @@ body {
     background: transparent;
     font-size: 20px;
     text-align: center;
-    padding: 5px; 
+    padding: 5px;
     border: 1px solid rgb(135, 135, 135);
     border-radius: 5px;
     transition: 1s;
 }
-.optionss:hover{
+
+.optionss:hover {
     opacity: 1;
     color: rgb(234, 231, 231);
     border: 1px dashed white;
     transition: 1s;
 }
+
 /* ----------------------------------Timeline------------------------------ */
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background: white;
 }
-h2{
+
+h2 {
     color: white;
     font-size: 30px;
     padding-bottom: 15px;
 }
-.title{
+
+.title {
     text-align: center;
     font-size: 30px;
     margin-top: 8%;
     margin-bottom: 5%;
 }
-.timeline{
+
+.timeline {
     position: relative;
     max-width: 1200px;
     margin: 100px auto;
 }
 
-.container{
+.container {
     align-items: center;
     text-align: center;
     padding: 10px 50px;
@@ -122,7 +128,8 @@ h2{
     animation: movedown 1s linear forwards;
     opacity: 0;
 }
-.finish{
+
+.finish {
     color: white;
     text-align: center;
     align-items: center;
@@ -131,33 +138,40 @@ h2{
     margin: 15px 37%;
     border-radius: 20px;
 }
-@keyframes movedown{
-    0%{
+
+@keyframes movedown {
+    0% {
         opacity: 1;
         transform: translateY(-30px);
     }
-    100%{
+
+    100% {
         opacity: 1;
         transform: translateY(0px);
     }
 }
 
-.container:nth-child(1){
+.container:nth-child(1) {
     animation-delay: 0s;
 }
-.container:nth-child(2){
+
+.container:nth-child(2) {
     animation-delay: 1.5s;
 }
-.container:nth-child(3){
+
+.container:nth-child(3) {
     animation-delay: 2.5s;
 }
-.container:nth-child(4){
+
+.container:nth-child(4) {
     animation-delay: 3.6s;
 }
-.container:nth-child(5){
+
+.container:nth-child(5) {
     animation-delay: 4.6s;
 }
-.text-box{
+
+.text-box {
     padding: 20px 30px;
     background: rgb(35, 35, 116);
     position: relative;
@@ -165,15 +179,15 @@ h2{
     font-size: 15px;
 }
 
-.left-container{
+.left-container {
     left: 2%;
 }
 
-.right-container{
+.right-container {
     left: 48%;
 }
 
-.timeline::after{
+.timeline::after {
     content: '';
     position: absolute;
     width: 6px;
@@ -186,26 +200,26 @@ h2{
     animation: moveline 6s linear forwards;
 }
 
-@keyframes moveline{
-    0%{
+@keyframes moveline {
+    0% {
         height: 0;
     }
 
-    100%{
+    100% {
         height: 100%;
     }
 }
 
-.text-box h2{
+.text-box h2 {
     font-weight: 600;
 }
 
-.text-box small{
+.text-box small {
     display: inline-block;
     margin-bottom: 15px;
 }
 
-.left-container-arrow{
+.left-container-arrow {
     height: 0;
     width: 0;
     position: absolute;
@@ -217,7 +231,7 @@ h2{
     right: -15px;
 }
 
-.right-container-arrow{
+.right-container-arrow {
     height: 0;
     width: 0;
     position: absolute;
@@ -228,7 +242,8 @@ h2{
     border-right: 15px solid rgb(35, 35, 116);
     left: -15px;
 }
-.bottom-button{
+
+.bottom-button {
     color: white;
     opacity: 0.7;
     background: transparent;
@@ -237,47 +252,88 @@ h2{
     padding-bottom: 10px;
     transition: 1s;
 }
-.bottom-button:hover{
+
+.bottom-button:hover {
     opacity: 1;
     transition: 1s;
 }
-.text-btm{
+
+.text-btm {
     padding: 20px 0;
     text-align: center;
     font-size: 20px;
 }
+
 /* ==============================NEW===================== */
 
 
 @media screen and (max-width: 600px) {
+    body{
+        margin-right: 5%;
+    }
 
-    .timeline{
+    .timeline {
         margin: 50px auto;
     }
-    .timeline::after{
+
+    .timeline::after {
         left: 31px;
     }
-    .container{
+
+    .container {
         width: 100%;
         padding-left: 80px;
         padding-right: 25px;
     }
-    .text-box{
+
+    .text-box {
         font-size: 13px;
     }
-    .text-box small{
+
+    .text-box small {
         margin-bottom: 10px;
     }
-    .right-container{
+
+    .right-container {
         left: 0;
+        margin-left: 8px;
     }
-    .left-container img, .right-container img{
-        left: 4px;
+    h2{
+        font-size: 20px;
     }
-    .left-container-arrow, .right-container-arrow{
-        margin-top: 10px;
-        border-right: 15px solid #fff;
+    .optionss{
+        font-size: 13px;
+    }
+    .left-container-arrow,
+    .right-container-arrow {
+        border-right: 15px solid rgb(35, 35, 116);
         border-left: 0;
-        left: -15px;
+        left: -20px;
     }
-}   
+
+    .nav1 {
+        font-size: 20px;
+        text-align: center;
+        text-decoration: rgb(35, 35, 116) underline;
+    }
+    .nav{
+        margin-left: 0;
+    }
+    .title {
+        font-size: 20px;
+        margin-top: 20%;
+        margin-left: -30%;
+    }
+
+    .finish {
+        padding: 10px 50px;
+        margin: 15px 0;
+        
+        margin-left: 3.5%;
+        margin-right: 7%;
+        border-radius: 20px;
+    }
+    .text-btm{
+        font-size: 15px;
+    }
+}
