@@ -1,32 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="Style.css">
 </head>
+
 <body>
     <div id="navbar">
         <div class="header">
             <Ul class="lists">
                 <li class="title">TechRec</li>
-                <!-- <li class="list"><a class="lists" href="testing.html">Login</a></li>
-                <li class="list2">|</li>
-                <li class="#"><a class="lists" href="testing.html">Register</a></li> -->
             </Ul>
         </div>
     </div>
     <div id="menu">
         <div id="menu-items">
-            <a href="./Login/index.html" class="menu-item">Login</a>
+            <a class="menu-item" id="myButton">Login</a>
             <a href="./Layered Page/timeline.html" class="menu-item">Let's Start</a>
             <a href="./Blogs/index.html" class="menu-item">Blogs</a>
             <a href="./About/index.html" class="menu-item">About</a>
         </div>
         <div id="menu-background-pattern"></div>
     </div>
+
+    <form id="myForm">
+        <div class="login-form">
+            <h1>Login</h1>
+            <input type="text" name="" placeholder="Enter Username" id="username">
+            <input type="password" name="" placeholder="Enter Password" id="password">
+            <input type="Submit" name="" value="Login" onclick="validate()" id="submit">
+            <button id="close">×</button>
+        </div>
+    </form>
     <script src="app.js"></script>
 </body>
+
 </html>
